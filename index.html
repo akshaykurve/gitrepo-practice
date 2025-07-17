@@ -10,18 +10,26 @@
   <header class="header">
     <nav class="navbar">
       <div class="logo">GitHub Basics</div>
-      <ul class="nav-links">
+      <ul class="nav-links" id="navLinks">
         <li><a href="#features">Features</a></li>
         <li><a href="#about">About</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#faq">FAQ</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
+      <div class="hamburger" id="hamburger" aria-label="Open navigation" tabindex="0">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
     </nav>
+    <div class="nav-overlay" id="navOverlay"></div>
   </header>
   <main>
     <section class="hero">
       <h1>Master the Basics of GitHub</h1>
       <p>Learn version control, collaboration, and open source with our beginner-friendly guide.</p>
-      <a href="#get-started" class="cta-btn">Get Started</a>
+      <a href="#get-started" class="cta-btn" id="getStartedBtn">Get Started</a>
     </section>
     <section id="features" class="features">
       <h2>Features</h2>
@@ -37,6 +45,40 @@
         <div class="feature-item">
           <h3>Community Support</h3>
           <p>Join our forum and get help from fellow learners.</p>
+        </div>
+      </div>
+    </section>
+    <section id="testimonials" class="testimonials">
+      <h2>What Our Users Say</h2>
+      <div class="testimonial-list">
+        <div class="testimonial-item">
+          <p>"This site made learning GitHub so easy!"</p>
+          <span>- Alex, Student</span>
+        </div>
+        <div class="testimonial-item">
+          <p>"The interactive examples are fantastic."</p>
+          <span>- Priya, Developer</span>
+        </div>
+        <div class="testimonial-item">
+          <p>"I finally understand open source thanks to this guide."</p>
+          <span>- Sam, Designer</span>
+        </div>
+      </div>
+    </section>
+    <section id="faq" class="faq">
+      <h2>Frequently Asked Questions</h2>
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question">What is GitHub?</button>
+          <div class="faq-answer">GitHub is a platform for version control and collaboration, allowing you to manage and share code with others.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Do I need to know coding to use GitHub?</button>
+          <div class="faq-answer">No, GitHub can be used for many types of projects, not just code. However, basic knowledge of version control helps.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Is GitHub free?</button>
+          <div class="faq-answer">Yes, GitHub offers free accounts with unlimited public and private repositories.</div>
         </div>
       </div>
     </section>

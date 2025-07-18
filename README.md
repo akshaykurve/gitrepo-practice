@@ -33,7 +33,7 @@ This project is a beautiful, interactive landing page for learning the basics of
    - Added FAQ accordion functionality.
    - Enabled smooth scrolling for navigation links.
    - Made the "Get Started" button interactive.
- 
+
 ---
 
 ## Project Structure

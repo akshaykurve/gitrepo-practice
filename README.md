@@ -17,7 +17,7 @@ This project is a beautiful, interactive landing page for learning the basics of
 
 1. **Initial Setup:**
    - Created `index.html`, `style.css`, and `script.js`.
-   - Linked CSS and JS in the HTML file. 
+   - Linked CSS and JS in the HTML file.
 
 2. **Modern Layout:**
    - Designed a hero section, navigation bar, features, testimonials, FAQ, about, and contact sections.

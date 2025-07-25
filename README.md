@@ -318,3 +318,4 @@ if (getStartedBtn) { ... }
 ## Credits
 - Designed and coded with modern web best practices.
 - No frameworks or libraries required—just HTML, CSS, and JS!
+
